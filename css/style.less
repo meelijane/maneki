@@ -28,14 +28,30 @@ Copyright 2013, Josh Cope
      .header {
       float: left;
       width: 100%;
-      padding-bottom: 30px;
+      padding-bottom: 50px;
      }
 }
 
-#whatido, #me, #you {
+#whatido, #me, #you, #contact {
   margin-top: 200px;
 }
 
+#contact {
+  padding-bottom: 300px;
+  .icons {
+    img:hover {
+      opacity: 0.5;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+    margin-left: -10px;
+      img {
+        float: left;
+    }
+  }
+}
 /* =============================================================================
    Page Styles
    ========================================================================== */
