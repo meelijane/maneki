@@ -6,6 +6,11 @@
   // Document ready.
   $(function(){
       $.localScroll();
+
+      $.stellar({
+        verticalOffset: 250
+      });
+
   });
 
   // Window load.
